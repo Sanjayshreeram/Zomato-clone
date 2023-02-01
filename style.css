@@ -4,13 +4,14 @@
 }
 body {
     font-family: 'Merriweather', serif;
-    background-color: #f9fafc;
+    background-color:#ebf2ff;
 
 }
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: #fff;
 }
 .navbar_brand {
     width: 100px;
@@ -18,14 +19,63 @@ body {
 .brand_logo {
     width: 100%;
 }
-.order_button {
+.button_primary {
     background-image: linear-gradient(to right,
     #ff512f 0%,
     #dd2476 51%,
     #ff512f 100%);
     color: #fff;
     border: none;
-    padding: 11px;
-    border-radius: 11px;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: 600;
 
+}
+.button_primary:hover {
+    border: 2px solid #ff6767;
+    cursor: pointer ;
+    
+}
+@media (min-width: 768px) {
+    .navbar {
+        justify-content: space-between;
+        padding: 20px 30px;
+    }
+    .hero_container{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+@media (min-width:1024px) {
+    .navbar_brand {
+        width: 150px;
+    }
+    .navbar_items {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+}
+.hero_image_conatiner {
+    width: 100%;
+}
+.hero_image {
+    width: 100%;
+
+}
+.container {
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.hero_conatiner {
+    width: 100px;
+}
+.hero_conatiner{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.hero_desc {
+font-size: 30px;
+margin: ;    
 }
