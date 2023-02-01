@@ -56,7 +56,7 @@ body {
     }
 
 }
-.hero_image_conatiner {
+.hero_image_container {
     width: 100%;
 }
 .hero_image {
@@ -68,14 +68,11 @@ body {
     max-width: 100%;
     margin: 0 auto;
 }
-.hero_conatiner {
+.hero_container {
     width: 100px;
 }
-.hero_conatiner{
-    display: flex;
-    flex-direction: row-reverse;
-}
+
 .hero_desc {
 font-size: 30px;
-margin: ;    
+margin: 20px;    
 }
