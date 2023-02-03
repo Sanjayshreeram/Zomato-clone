@@ -58,7 +58,7 @@ padding: 12px;
 #BURGER {
     margin-top: -20px;
 }
-@media (min-width: 768px) {
+@media (min-width:768px) {
     .navbar {
         justify-content: space-between;
         padding: 20px 30px;
@@ -70,6 +70,29 @@ padding: 12px;
     .explore_menu_list {
         display: flex;
         gap: 15px;
+    }
+    .explore_menu_container {
+        position:relative;
+        margin-top:10px ;
+
+    } 
+    .menu__gradient {
+        position:absolute;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        height: 100%;
+
+        background-image: linear-gradient(
+            to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%);
+        z-index: -3;
+         transform: skewY(-5deg);
+
+
+
     }
 }
 @media (min-width:1024px) {
@@ -86,6 +109,8 @@ padding: 12px;
     .hero_desc {
         width: 100%;
     }
+    
+    
 
 }
 .hero_image_container {
